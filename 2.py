@@ -3,7 +3,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 # 讀取圖片
-img = cv2.imread('a.jpg')
+img = cv2.imread('a.jpeg')
 # 轉成灰階圖片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # 偵測臉部
